@@ -17,4 +17,4 @@ pip install --upgrade --user git+https://github.com/sterbini/madx.git@fork_name
 
 ## Example
 
-Please have a look to example.ipynb.
+Please have a look to [example.ipynb](https://github.com/sterbini/madx/blob/master/example.ipynb).
