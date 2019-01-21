@@ -15,3 +15,6 @@ or to upgrade a fork of the project
 pip install --upgrade --user git+https://github.com/sterbini/madx.git@fork_name
 ```
 
+## Example
+
+Please have a look to example.ipynb.
