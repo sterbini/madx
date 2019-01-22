@@ -125,7 +125,7 @@ class MadX:
                     break
                 # In case of errors
                 myError=self.p.stderr.readlines()
-                if myError!=[]
+                if myError!=[]:
                     for j in myError:
                         print(j)
                     break
