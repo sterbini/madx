@@ -123,6 +123,12 @@ class MadX:
                 self.result+=aux
                 if (any('1G2U3I4D0\n' in mystring for mystring in aux)) | (self.p.poll()==0):
                     break
+                # In case of errors
+                myError=self.p.stderr.readlines()
+                if myError!=[]
+                    for j in myError:
+                        print(j)
+                    break
             
             self.log+=self.result
             self.log+=['! <<< STOP: '+datetime.datetime.utcnow().strftime("%a %b %d %H:%M:%S.%f UTC %Y\n\n")]
