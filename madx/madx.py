@@ -124,7 +124,7 @@ class MadX:
                 if (any('1G2U3I4D0\n' in mystring for mystring in aux)) | (self.p.poll()==0):
                     break
                 # In case of errors
-                myError=self.p.stderr.readlines()
+                myError=[j.decode() for j in self.p.stderr.readlines()];
                 if myError!=[]:
                     for j in myError:
                         print(j)
